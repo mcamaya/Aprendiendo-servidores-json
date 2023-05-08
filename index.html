@@ -1,3 +1,4 @@
+<!-- WEB COMPONENTS INTRODUCTION -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,25 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="main.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="campers.js" defer></script>
 </head>
 <body>
-    <div class="container">
-
-        <button id="btn">Traer datos</button>
-    
-        <form id="myForm">
-            <input type="text" name="id" placeholder="Ingrese la cédula">
-            <input type="text" name="firstName" placeholder="Ingrese nombres">
-            <input type="text" name="lastName" placeholder="Ingrese apellidos">
-            <input type="text" name="age" placeholder="Ingrese su edad">
-            <input type="text" name="address" placeholder="Ingrese su dirección">
-            <input type="submit" data-accion="enviar" value="Mostrar">
-            <input type="submit" data-accion="listar" value="Listar">
-        </form>
-
-    </div>
+    <h3>Baby Sputnik Campers</h3>
+    <!-- 1. Referenciar etiqueta personalizada (custom tag) -->
+    <!-- 4. Añadir atributos -->
+    <camper-card name="Lolita Pérez" photo="./img/lola.jpg"></camper-card>
+    <camper-card name="Fulano Pabon" photo="https://i.pinimg.com/236x/f8/20/25/f82025d28e96bcfefbdcfdc4f45fd05a--scrapbooking.jpg"></camper-card>
 
 </body>
 </html>
